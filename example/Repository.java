@@ -17,6 +17,7 @@ public class Repository
     public void commitChanges(String commentary)
     {
         System.out.println("Был произведен commit с комментарием: " + commentary);
+        System.out.println("Commit был выполнен!"); //НОВАЯ ЗАПИСЬ
     }
 
     public void showCommitStory()
