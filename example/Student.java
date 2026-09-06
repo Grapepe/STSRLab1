@@ -21,6 +21,9 @@ public class Student
         studentRepository.indexFiles();
         studentRepository.commitChanges("Первый коммит");
         studentRepository.showCommitStory();
+        System.out.println("Изменение файлов"); //НОВАЯ ЗАПИСЬ
+        studentRepository.commitChanges("Второй коммит коммит"); //НОВАЯ ЗАПИСЬ
+        studentRepository.showCommitStory(); //НОВАЯ ЗАПИСЬ
     }
 
     public String getName() {
